@@ -1,0 +1,13 @@
+.container {
+    margin: 20px auto;
+    padding: 10px;
+
+    .data-grid{
+        border: 1px solid black;
+        margin-bottom: 10px;
+
+        &:nth-child(odd){
+            background-color: lightcoral;
+        }
+    }
+}
